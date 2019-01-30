@@ -1,0 +1,259 @@
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php
+$ git config --gobal user.name "beadpool"
+error: unknown option `gobal'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php
+$ git config --gobal user.name "beadpool"
+error: unknown option `gobal'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php
+$ config --global user.email "deadpool"
+bash: config: command not found
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php
+$ git config --global user.name "beadpool"
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php
+$ git config --global user.email "badpool1997@gmail.com"
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php
+$ git init
+Initialized empty Git repository in C:/wamp64/www/php/.git/
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        test1.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$ git add -A
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   test1.php
+
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$ git commit -m "all file uplod"
+[master (root-commit) 6857a8e] all file uplod
+ 1 file changed, 11 insertions(+)
+ create mode 100644 test1.php
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$ git remote add origin https://github.com/beadpool/php.git
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$ git remote add origin https://github.com/beadpool/php.git
+fatal: remote origin already exists.
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$ gitEnumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 305 bytes | 305.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/beadpool/php.git
+ * [new branch]      master -> master
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$ git push origin masterEverything up-to-date
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$ git clone
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter <args>       object filtering
+
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$ git pull origin master
+From https://github.com/beadpool/php
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$ ls
+test1.php
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$ git clone origin master
+fatal: repository 'origin' does not exist
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$ git clone https://github.com/beadpool/php.git
+Cloning into 'php'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$ ls
+php/  test1.php
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php (master)
+$ cd php
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php/php (master)
+$ ls
+test1.php
+
+ARJUNA@DESKTOP-QO2BSTM MINGW64 /c/wamp64/www/php/php (master)
